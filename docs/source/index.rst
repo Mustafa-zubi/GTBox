@@ -6,8 +6,10 @@
 Welcome to GTBox's documentation!
 =================================
 
-GTBox is a security box that includes ... for the perpouse of scientific research. 
-maybe you are asking your self what does GTBox is standing for ... ?? guess what :). However, we will  reveal the secret in the right moment :)
+Welcome to the GTBox: A DDoS attack detection and mitigation research project and repository. 
+
+GTBox? you might find yourself wondering about the origins of its name. What does GTBox stand for? Well, hold onto your curiosity, as we promise to unveil this secret at the most opportune moment. Stay tuned!
+
 
 .. toctree::
    :maxdepth: 2
