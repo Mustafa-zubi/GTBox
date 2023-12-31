@@ -7,14 +7,14 @@ from mininet.link import TCLink
 from mininet.cli import CLI
 
 class netTopology(Topo):
-    def __init__(self, hosts=2, switches=1, gw=1):
+    def __init__(self, h=2, sw=1, gw=1):
         # initialization function that is executed whenever you call the class netTopology
         # by default, if you don't assign number of hosts, switchws and gateway default values 
         # will be added automatically -> hosts=2, switches=1, gw=1
 
         # initialization 
-        self.hosts = hosts
-        self.switches = switches
+        self.hosts = h
+        self.switches = sw
         self.gw = gw
         print ("Hello")
 

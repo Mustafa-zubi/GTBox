@@ -4,6 +4,9 @@
 
 from envSetup import netTopology 
 
+
+netTopology(h=2, sw=2,gw=1)
+
 # def main():
 #     topo = CustomTopology()
 #     net = Mininet(topo=topo, controller=None)  # Use the default controller
