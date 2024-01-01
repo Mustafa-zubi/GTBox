@@ -15,11 +15,13 @@ GTBox? you might find yourself wondering about the origins of its name. What doe
    :maxdepth: 2
    :caption: Contents:
 
+   introduction
+   installation
 
+.. Indices and tables
+.. ==================
+.. introduction.rst
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
