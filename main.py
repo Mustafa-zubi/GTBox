@@ -2,10 +2,17 @@
 # created by MZ on Dec 31, 2023.
 # Version control: V0.01
 
-from envSetup import netTopology 
+from GTBox import simNetwork, GTBox
+
+GTBox("ff", "DDoS")
+# Example usage:
 
 
-netTopology(h=2, sw=2,gw=1)
+network_instance = simNetwork ("mn", 3,3,1)
+
+# Now you have 'network_instance' which is an instance of either simNetwork or phyNetwork.
+# You can use it as needed.
+
 
 # def main():
 #     topo = CustomTopology()
