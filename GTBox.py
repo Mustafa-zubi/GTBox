@@ -41,7 +41,7 @@ class simNetwork(GTBox):
 				CLIInputReq("Do you want to continue?").YNQuestion()
 
 			try:
-				GTBox_Mininet.buildSingle("single", self.hosts) #All hosts connected to single switch
+				GTBox_Mininet().buildSingle(self.hosts) #All hosts connected to single switch
 				self.netPlatformReady = True
 			except:
 				CLIMessage ("Problem building the MN/single virtual network", "E")
@@ -49,7 +49,7 @@ class simNetwork(GTBox):
 
 		elif answer.lower() in {"lin", "linear", "2"}:
 			try:
-				GTBox_Mininet.buildLinear("linear", self.hosts)
+				GTBox_Mininet().buildLinear(self.hosts)
 				self.netPlatformReady = True
 			except:
 				CLIMessage ("Problem building the MN/linear virtual network", "E")
@@ -62,13 +62,11 @@ class simNetwork(GTBox):
 				CLIMessage ("0 depth is not applicable!!", "E")
 				sys.exit()
 			try:
-				GTBox_Mininet.buildTree("tree", self.hosts, depth, fanout)
+				GTBox_Mininet().buildTree(self.hosts, depth, fanout)
 				self.netPlatformReady = True
 			except:
 				CLIMessage ("Problem building the MN/tree virtual network", "E")
 				self.netPlatformReady = False
-
-		
 
 class phyNetwork(GTBox):
     def __init__(self, net): 
