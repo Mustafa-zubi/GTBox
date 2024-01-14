@@ -4,7 +4,7 @@
 
 from GTBox import simNetwork, GTBox
 
-GTBox("ff", "DDoS")
+# GTBox("ff", "DDoS")
 # Example usage:
 
 
