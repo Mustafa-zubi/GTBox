@@ -7,8 +7,6 @@ GTBox is an ecosystem framework, combining a suite of our own developed modules 
    To understand/get the idea well: Imagine you're a researcher keen on exploring DDoS attack detection and mitigation through machine      learning. With GTBox, you can experiment with different datasets, techniques, and models. It also allows you to benchmark your own       model with similar works. In short, GTBox is the go-to tool for researchers seeking to advance their work with efficiency and            precision. 
 
 
-Describe the structure here!
-
 .. figure:: images/GTBox.png
    :alt: ifconfig
    :align: center
